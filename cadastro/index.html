@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="JS/script.js">
+    <title>GITI</title>
+</head>
+<body>
+
+    <div input type="text"></div>
+   
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <div input type="text"></div>
+    <div class="main-login">
+        <div class="left-login">
+            <h1 style="color: rgb(45, 45, 236);">Entre para o nosso time! <br>GITI</h1>
+            <img src="CSS/img/homemsemexendo.svg" class="left-login-image" alt="Imagem principal"> 
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>LOGIN</h1>
+                <div class="textfield">
+                    <label form="usuario" style="color: rgb(45, 45, 236);">Empresa</label>
+                    <input type="text" name="usuario" id="loginID" placeholder="CNPJ">
+                </div>
+                <div class="textfield">
+                    <label form="senha" style="color: rgb(45, 45, 236)">Senha</label>
+                    <input type="password" name="senha" id="senhaID" placeholder="Senha">
+                </div>
+                <button class="btn-login" style="background-color: rgb(45, 45, 236)" id="recover-password-button" onclick="validateFields();">Login</button>
+                <nav>
+                    <ul>
+                        <li><a href="cadastrodousuario.html" style="color: rgb(45, 45, 236);">Faça seu cadastro! Entre para o Nosso time</a></li>
+                   </ul>
+                </nav>                
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
