@@ -4,10 +4,11 @@ O projeto implementado no hackathon encat 2022 tem como objetivo facilitar a vid
 
 ### 📋 Pré-requisitos
 
-De que coisas você precisa para instalar o software e como instalá-lo?
+De que você precisa para instalar o software e como instalá-lo?
 
 ```
-Apenas baixe as pastas, abra no vscode e open with Live Server, caso a página web fique desconexa, abra com ''python manage.py runsever''.     
+Apenas baixe as pastas, abra no vscode e open with Live Server, caso a página web fique desconexa, abra com ''python manage.py runsever''.
+Instale Django e Python em vossa máquina!
 ```
 
 ## 🛠️ Construído com
