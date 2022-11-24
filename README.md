@@ -1,4 +1,4 @@
-# Aplicação web para contribuintes do icms(Imposto sobre circulação de mercadorias e prestação de serviços) | ENCAT
+#Aplicação web para contribuintes do icms(Imposto sobre circulação de mercadorias e prestação de serviços) | ENCAT
 
 O projeto implementado no hackathon encat 2022 tem como objetivo facilitar a vida do contribuinte, seja de microempresa ou não, que acaba na maioria das vezes falindo devido ao desconhecimento fiscal.
 
